@@ -22,6 +22,6 @@ deploy:
   provider: pages
   cleanup: true
   local_dir: dist
-  token: $GITHUB_TOKEN
+  github_token: $GITHUB_TOKEN
   on:
     branch: master
