@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`House should  1`] = `
+<div
+  class="view"
+>
+  <div
+    class="house"
+  />
+</div>
+`;
