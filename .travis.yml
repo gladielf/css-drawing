@@ -2,7 +2,6 @@ language: node_js
 os: linux
 node_js:
   - "12"
-dist: trusty
 
 cache:
   directories:
@@ -22,6 +21,6 @@ deploy:
   provider: pages
   cleanup: true
   local_dir: ${TRAVIS_BUILD_DIR}/dist
-  github_token: $GITHUB_TOKEN
+  token: $GITHUB_TOKEN
   on:
     branch: master
