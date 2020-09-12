@@ -1,6 +1,6 @@
 # css-drawing
 
-[![Build Status](https://travis-ci.org/gladielf/css-drawing.svg?branch=master)](https://travis-ci.org/gladielf/css-drawing)
+[![Build Status](https://travis-ci.com/gladielf/css-drawing.svg?branch=master)](https://travis-ci.com/gladielf/css-drawing)
 [![Coverage Status](https://coveralls.io/repos/github/gladielf/css-drawing/badge.svg?branch=master)](https://coveralls.io/github/gladielf/css-drawing?branch=master)
 
 ## Project setup
