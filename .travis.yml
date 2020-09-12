@@ -21,8 +21,9 @@ after_script:
 deploy:
   strategy: git
   provider: pages
-  cleanup: true
-  local_dir: ${TRAVIS_BUILD_DIR}/dist
+  skip_cleanup: true
+  keep_history: true
+  local_dir: dist
   token: $GITHUB_TOKEN
   on:
     branch: master
